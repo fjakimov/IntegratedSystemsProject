@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAl0tix9k8xEWnjiLMkD8dlwAAAAACAAAAAAAQZgAAAAEAACAAAACPVlIT9gXPlrE/wDRaWlJmLRXTINBOxyme1bHNLo2ZVAAAAAAOgAAAAAIAACAAAAA/Dh3ZOaRzH9Lg+6V7SVHWFu+L0SnABA5HFai9O8bfEiAAAAABLVx9MQZDG5x2zmgQpZaxFS9wx9TNyQRRWfjTmnmiTUAAAADdi8l/EjQW8F8qx/s+MzLxz8gwl/tpDX9xNqv3DSZSnPhW7msQNiTINRb0SjSr3kIsooD/NcNKyUFe8CbB8hXx</EncryptedPassword>
+    <History>False|2025-01-29T19:17:17.5972857Z;False|2025-01-29T19:47:19.0454741+01:00;False|2025-01-29T18:12:01.1751545+01:00;False|2025-01-29T16:47:23.0405148+01:00;False|2025-01-29T16:45:58.2400487+01:00;False|2025-01-29T16:40:24.9874376+01:00;False|2025-01-29T14:12:15.2473265+01:00;False|2025-01-29T14:05:34.1939541+01:00;False|2025-01-29T13:57:13.1416066+01:00;False|2025-01-29T13:54:51.7979928+01:00;False|2025-01-29T13:48:56.8952703+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=honeyshop-sqlserver.database.windows.net,1433%3bInitial Catalog=honeyshop%3bUser ID=fice%3bPassword=Azure15820%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Repository.Data.AppDbContext">
+      <Value>Data Source=honeyshop-sqlserver.database.windows.net,1433%3bInitial Catalog=honeyshop%3bUser ID=fice%3bPassword=Azure15820%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

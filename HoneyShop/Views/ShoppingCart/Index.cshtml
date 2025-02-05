@@ -1,0 +1,118 @@
+﻿@model Domain.DTO.ShoppingCartDTO
+
+<div class="shopping-cart">
+    <h2 class="text-center">Your Shopping Cart</h2>
+
+    @if (Model.Items.Count == 0)
+    {
+        <p class="text-muted text-center">Your cart is empty!</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>
+                            <input type="number"
+                                   name="quantity"
+                                   value="@item.Quantity"
+                                   min="1"
+                                   max="@item.Stock"
+                                   data-price="@item.Price"
+                                   data-stock="@item.Stock"
+                                   data-product-id="@item.ProductId"
+                                   class="form-control quantity-input" />
+                        </td>
+                        <td>$@item.Price</td>
+                        <td class="product-total">$@(item.Price * item.Quantity)</td>
+                        <td>
+                            <form asp-action="RemoveFromCart" asp-controller="ShoppingCart" method="post">
+                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash"></i> Remove
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-end">
+            <h3 class="cart-total">Total: <strong>$@Model.TotalPrice</strong></h3>
+            <a asp-action="CreateCheckoutSession" asp-controller="ShoppingCart" class="btn btn-primary btn-lg mt-2">
+                <i class="bi bi-credit-card"></i> Checkout
+            </a>
+        </div>
+    }
+</div>
+
+<style>
+    .shopping-cart {
+        margin: 20px auto;
+        max-width: 800px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .table {
+        margin-top: 20px;
+    }
+
+    .quantity-input {
+        width: 60px;
+        text-align: center;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".quantity-input").forEach(input => {
+            input.addEventListener("input", async (event) => {
+                const quantity = parseInt(event.target.value) || 1;
+                const maxStock = parseInt(event.target.dataset.stock);
+                const pricePerUnit = parseFloat(event.target.dataset.price);
+                const productId = event.target.dataset.productId;
+
+                if (quantity > maxStock) {
+                    alert(`Only ${maxStock} items are available in stock.`);
+                    event.target.value = maxStock;
+                    return;
+                }
+
+                const totalPrice = (quantity * pricePerUnit).toFixed(2);
+                event.target.closest("tr").querySelector(".product-total").textContent = `$${totalPrice}`;
+
+                updateCartTotal();
+
+                await fetch('/ShoppingCart/UpdateCartItem', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ selectedProductId: productId, quantity: quantity })
+                });
+            });
+        });
+
+        function updateCartTotal() {
+            let cartTotal = 0;
+            document.querySelectorAll(".product-total").forEach(cell => {
+                cartTotal += parseFloat(cell.textContent.replace("$", "")) || 0;
+            });
+            document.querySelector(".cart-total").textContent = `Total: $${cartTotal.toFixed(2)}`;
+        }
+    });
+</script>

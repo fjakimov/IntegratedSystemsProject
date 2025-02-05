@@ -1,0 +1,12 @@
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\bin\Release\net8.0\Domain.deps.json
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\bin\Release\net8.0\Domain.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\bin\Release\net8.0\Domain.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.AssemblyInfo.cs
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\refint\Domain.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\Domain.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Release\net8.0\ref\Domain.dll

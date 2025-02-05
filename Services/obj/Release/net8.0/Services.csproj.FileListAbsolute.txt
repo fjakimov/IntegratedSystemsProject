@@ -1,0 +1,17 @@
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Services.deps.json
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Services.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Services.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Domain.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Repository.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Domain.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Services\bin\Release\net8.0\Repository.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.csproj.AssemblyReference.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.AssemblyInfoInputs.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.AssemblyInfo.cs
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.csproj.Up2Date
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\refint\Services.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\Services.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Services\obj\Release\net8.0\ref\Services.dll

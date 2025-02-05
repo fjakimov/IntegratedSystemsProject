@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HoneyShop.Web.props" />
+</Project>

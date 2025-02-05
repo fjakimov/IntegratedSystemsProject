@@ -1,0 +1,15 @@
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\bin\Debug\net8.0\Repository.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\bin\Debug\net8.0\Repository.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\bin\Debug\net8.0\Domain.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\bin\Debug\net8.0\Domain.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\Repository.pdb
+D:\Integrirani Sistemi\Project\HoneyShop\Repository\obj\Debug\net8.0\ref\Repository.dll
