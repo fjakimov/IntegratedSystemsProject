@@ -15,20 +15,30 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
+
+
 // Register AppDbContext with EF Core
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Db for Partner Store
+builder.Services.AddDbContext<PartnerDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PartnerDatabase")));
 
 // Register repositories and services
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
+//Repository for Partner Store
+builder.Services.AddScoped<IPartnerStoreRepository, PartnerStoreRepository>();
 
 builder.Services.AddTransient<IProductService, Services.Implementation.ProductService>();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IShoppingCartService, ShoppingCartService>();
 builder.Services.AddTransient<IOrderService, OrderService>();
+//Service for Partner Store
+builder.Services.AddScoped<IPartnerStoreService, PartnerStoreService>();
 
 // Authorization policy for Admin role
 builder.Services.AddAuthorization(options =>

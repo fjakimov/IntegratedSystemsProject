@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Domain
-build_property.ProjectDir = D:\Integrirani Sistemi\Project\HoneyShop\Domain\
+build_property.ProjectDir = C:\Users\Stefani Eftimovska\source\repos\IntegratedSystemsProject\Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

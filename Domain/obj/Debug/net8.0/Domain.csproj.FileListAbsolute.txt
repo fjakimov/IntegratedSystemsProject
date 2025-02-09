@@ -10,3 +10,16 @@ D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Debug\net8.0\Domain.dll
 D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Debug\net8.0\Domain.pdb
 D:\Integrirani Sistemi\Project\HoneyShop\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Stefani Eftimovska\Source\Repos\IntegratedSystemsProject\Domain\obj\Debug\net8.0\ref\Domain.dll

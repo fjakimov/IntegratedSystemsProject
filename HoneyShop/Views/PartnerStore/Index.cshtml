@@ -1,0 +1,162 @@
+﻿@using Domain.DTO
+@model PartnerStoreViewModel
+
+@{
+    ViewData["Title"] = "Partner Store";
+}
+
+<div class="container mt-4">
+    <!-- Header Section -->
+    <div class="text-center mb-4">
+        <h2>If you need to browse books, publishers and authors we have the best store for you!</h2>
+        <h3>    We present to you our partner     </h3>
+        <h1><b>BookStore</b></h1>
+
+       
+            <p class="total-orders"><strong>BookStore's total Orders: @Model.TotalOrders</strong></p>
+
+        
+    </div>
+
+    <!-- Books Section -->
+    <div class="product-grid">
+        @foreach (var book in Model.Books)
+        {
+            <div class="product-card">
+                <img src="@book.BookCover" class="product-image" alt="@book.Title">
+                <h5>@book.Title</h5>
+                <p class="card-text">@book.Genre</p>
+                <p class="card-text"><strong>$@book.Price</strong></p>
+
+                <!-- Display Rating in Stars -->
+                <div class="rating">
+                    @for (var i = 0; i < 5; i++)
+                    {
+                        if (i < (int)book.Rating)
+                        {
+                            <i class="fas fa-star"></i> <!-- Filled Star -->
+                        }
+                        else if (i == (int)book.Rating && book.Rating % 1 != 0)
+                        {
+                            <i class="fas fa-star-half-alt"></i> <!-- Half Star -->
+                        }
+                        else
+                        {
+                            <i class="far fa-star"></i> <!-- Empty Star -->
+                        }
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    
+</div>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('https://img.freepik.com/free-photo/closeup-books-wellorganized-shelves-bookstore_181624-59731.jpg?t=st=1738855811~exp=1738859411~hmac=fa0a0842fb600059492169f3eff1ffa77fa9e6b48c077a75a9fdfccb1de00b85&w=996'); /* URL from Freepik */
+        background-size: cover; 
+        background-position: center; 
+        background-attachment: fixed; 
+        background-repeat: no-repeat; 
+        color: #333;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .text-center h1, .text-center h2, .text-center h3 {
+        color: white; 
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); 
+    }
+
+    .text-center h1 {
+        font-size: 3rem; 
+        margin-bottom: 10px;
+    }
+
+    .text-center h2 {
+        font-size: 2rem; 
+        margin-bottom: 10px;
+    }
+
+    .text-center h3 {
+        font-size: 1.5rem; 
+        margin-bottom: 15px;
+    }
+
+    .total-orders {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        margin-top: 15px;
+    }
+
+  
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px; 
+        margin: 20px;
+        padding: 20px;
+    }
+
+    
+    .product-card {
+        position: relative;
+        background-color: #E9E8E7; 
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); 
+        text-align: center;
+        padding: 16px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); 
+        }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        border-radius: 5px;
+        object-fit: contain;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    }
+
+    .product-card h5 {
+        font-size: 1.3rem;
+        margin: 12px 0;
+        font-weight: bold;
+    }
+
+
+    .product-card .card-text {
+        font-size: 1rem;
+        color: #333;
+        margin: 8px 0;
+    }
+
+    .rating {
+        display: flex;
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+        .rating i {
+            color: gold;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+    .product-grid .product-card {
+        margin-bottom: 30px; 
+    }
+</style>

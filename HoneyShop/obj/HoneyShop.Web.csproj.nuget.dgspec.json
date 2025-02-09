@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Integrirani Sistemi\\Project\\HoneyShop\\HoneyShop\\HoneyShop.Web.csproj": {}
+    "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\HoneyShop\\HoneyShop.Web.csproj": {}
   },
   "projects": {
-    "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj": {
+    "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Stefani Eftimovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefani Eftimovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,25 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Integrirani Sistemi\\Project\\HoneyShop\\HoneyShop\\HoneyShop.Web.csproj": {
+    "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\HoneyShop\\HoneyShop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\HoneyShop\\HoneyShop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\HoneyShop\\HoneyShop.Web.csproj",
         "projectName": "HoneyShop.Web",
-        "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\HoneyShop\\HoneyShop.Web.csproj",
-        "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\HoneyShop\\obj\\",
+        "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\HoneyShop\\HoneyShop.Web.csproj",
+        "packagesPath": "C:\\Users\\Stefani Eftimovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\HoneyShop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefani Eftimovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,21 +87,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj"
+              "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj"
               },
-              "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj"
+              "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj"
               },
-              "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Services\\Services.csproj": {
-                "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Services\\Services.csproj"
+              "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Services\\Services.csproj"
               }
             }
           }
@@ -124,11 +109,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -148,8 +128,10 @@
               "version": "[9.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.3, )"
             },
             "Stripe.net": {
               "target": "Package",
@@ -175,25 +157,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj": {
+    "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Stefani Eftimovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefani Eftimovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,15 +179,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj"
+              "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -218,11 +195,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -262,25 +234,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Services\\Services.csproj": {
+    "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Services\\obj\\",
+        "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Stefani Eftimovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefani Eftimovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -288,18 +256,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Domain\\Domain.csproj"
+              "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Domain\\Domain.csproj"
               },
-              "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\Integrirani Sistemi\\Project\\HoneyShop\\Repository\\Repository.csproj"
+              "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Stefani Eftimovska\\source\\repos\\IntegratedSystemsProject\\Repository\\Repository.csproj"
               }
             }
           }
@@ -308,11 +275,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -340,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
