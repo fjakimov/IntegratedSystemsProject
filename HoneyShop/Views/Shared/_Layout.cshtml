@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HoneyShop.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="content-wrapper">
@@ -27,6 +29,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="ShoppingCart" asp-action="Index">Shopping Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="PartnerStore" asp-action="Index">Partner Store</a>
                             </li>
                             @if (User.Identity.IsAuthenticated)
                             {

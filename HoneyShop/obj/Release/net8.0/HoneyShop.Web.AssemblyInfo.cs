@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HoneyShop.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b054a9df1d2a564169b81f80d6ff82908544a5f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("HoneyShop.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HoneyShop.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
